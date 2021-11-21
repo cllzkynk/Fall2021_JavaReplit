@@ -6,42 +6,38 @@ public class IfSwitchTernaryStringMethods_07 {
 
 	public static void main(String[] args) {
 		/*
-		 * Sayinin Mükemmel sayý olup olmadýðýný kontrol eden Java kodunu yazýn.
+		 * 2 kelime oluþturun: isim1 ve isim2
 		 * 
-		 * Sayýnýn kendisi hariç pozitif bölenlerinin toplamý o sayýya eþitse, herhangi
-		 * bir sayý Mükemmel Sayý olarak bilinir. Input :
+		 * // isim1 çift sayýda karakter içeriyorsa,
 		 * 
-		 * 6
+		 * // ikinci kelimeyi ilk adýn ortasýna yerleþtirin
 		 * 
-		 * Output:
+		 * // ilk kelime tek sayida karakter iceriyorsa
 		 * 
-		 * 6 Mukemmel Sayidir.
+		 * // “isim1, isim2 ye eklenemiyor” yazdýrýn
 		 * 
-		 * ======================
+		 * // Örneðin: // isim1= mehmet // isim2= ahmet // Yazdýr ==> mehahmetmet
 		 * 
-		 * Input
-		 * 
-		 * 7
-		 * 
-		 * Output:
-		 * 
-		 * 7 Mukemmel Sayidir degildir.
+		 * // isim1= memet // isim2= ahmet // Yazdýr ==> isim1, isim2 ye eklenemiyor
 		 */
-
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Mukemmel sayi adedini gir");
-		int sayi = scan.nextInt();
-		int toplam = 0;
-
-		for (int i = 1; i <= sayi / 2; i++) {
-			if (sayi % i == 0) {
-				toplam += i;
-			}
+		System.out.println("lutfen iki isim giriniz\nIsim1 :");
+		String name1 = scan.next();
+		System.out.println("Isim2:  ");
+		String name2 = scan.next();
+		int OrtaBul;
+		if (name1.length() % 2 == 1) {
+			System.out
+					.println("Ilk isim tek sayida karakter iceriyor\nnormalde ortasina bir kelime yerlestirilemez\nama "
+							+ "ben tam ortadaki harfi kaldirip\nonun yerine ikinci kelimeyi yerlestirecegim");
 		}
-		if (toplam == sayi) {
-			System.out.println("MUKKKEMMMELLLL");
+		System.out.println("===================================");
+		if (name1.length() % 2 == 1) {
+			OrtaBul = name1.length() / 2;
+			System.out.println(name1.substring(0, OrtaBul) + name2 + name1.substring(OrtaBul + 1));
 		} else {
-			System.out.println("Olmadi be kardes tutturamadim ");
+			OrtaBul = name1.length() / 2;
+			System.out.println(name1.substring(0, OrtaBul) + name2 + name1.substring(OrtaBul));
 		}
 
 		scan.close();
