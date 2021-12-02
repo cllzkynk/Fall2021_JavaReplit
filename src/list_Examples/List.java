@@ -1,4 +1,4 @@
-package List;
+package list_Examples;
 
 
 
@@ -24,7 +24,7 @@ maximum occurring character is : a
 
         String teklisira[] = tekle(arr).split(""); // arr yi metoda gonderdik tekrarli harfleri atip unig array olusturduk
 
-        String adet[] = adetSay(teklisira, arr).split(""); // unuq olan harfleri ilk arayde kac defa oldugu nu motodla bulduk
+        String adet[] = adetSay(teklisira, arr).split(""); // uniq olan harfleri ilk arayde kac defa oldugu nu motodla bulduk
 
         System.out.println(Arrays.toString(teklisira));//sonucu kontrol ivcin gereksiz syso [ , L, a, e, g, i, j, n, r, s, v, y]
         System.out.println(Arrays.toString(adet));     //sonucu kontrol ivcin gereksiz syso [3, 1, 4, 2, 1, 2, 1, 2, 1, 2, 1, 1]
@@ -42,7 +42,7 @@ maximum occurring character is : a
 
         System.out.println("Girilen ifadede en cok tekrar eden harf " + adet[max] + " tekrar ile : " + teklisira[max]);
 
-
+scanner.close();
     }
 
     public static String tekle(String[] arr) {

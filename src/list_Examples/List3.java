@@ -1,4 +1,4 @@
-package List;
+package list_Examples;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ Output :.edoc etirw ot ecin yrev si tI
 
         System.out.println(cevir(str));
 
-
+scan.close();
     }
 
     public static String cevir(String str) {
