@@ -1,6 +1,7 @@
 package method_Array;
 
 import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Method_Array_04 {
