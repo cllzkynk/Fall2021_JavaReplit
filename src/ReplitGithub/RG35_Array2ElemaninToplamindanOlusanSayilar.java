@@ -2,7 +2,7 @@ package ReplitGithub;
 
 import java.util.Arrays;
 
-public class RG35_Array2ElemanýnToplamindanOlusanSayilar {
+public class RG35_Array2ElemaninToplamindanOlusanSayilar {
 
     public static void main(String[] args) {
 

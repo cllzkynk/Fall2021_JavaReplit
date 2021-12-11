@@ -31,16 +31,18 @@ maximum occurring character is : a
         // simdi adet arrayinde  en buyuk int in indeksi neyse  teklisira arrayinde en cok tekrar eden harf o inndexte olacak
 
         int max = 0;
-        for (int i = 0; i < adet.length; i++) {
+        int index=0;
+        for (  int i = 0; i < adet.length; i++) {
 
             if (Integer.parseInt(adet[i]) > max) {
-                max = i;
+                max = Integer.parseInt(adet[i]);
+                index =i;
             }
         }
        // System.out.println(max); // en buyuk sayinin oldugu indexi bulduk 2.
         //  demekki teklisira  arrayinde ikinci indexteki harf en cok tekrar eden harf
 
-        System.out.println("Girilen ifadede en cok tekrar eden harf " + adet[max] + " tekrar ile : " + teklisira[max]);
+        System.out.println("Girilen ifadede en cok tekrar eden harf " + max + " tekrar ile : " + teklisira[index]);
 
 scanner.close();
     }

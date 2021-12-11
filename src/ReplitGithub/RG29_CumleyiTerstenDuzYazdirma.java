@@ -3,7 +3,7 @@ package ReplitGithub;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class RG29_CumleyiTerstenDuzYazdýrma {
+public class RG29_CumleyiTerstenDuzYazdirma {
 
     public static void main(String[] args) {
 
