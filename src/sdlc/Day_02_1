@@ -1,0 +1,148 @@
+ SDLC
+        planning
+        defining
+        designing
+        building
+        testing
+        deployement
+
+
+    Waterfall     vs    Agile
+    Proje yonetimi kolaydir
+    gorevler sabit
+    daha cok kisa donem projelerinde avantajlidir
+    degisim ve yenilikler zordur
+    musteri feedbackleri cok iyi degerlendirilemez
+  
+
+Agile
+    degisim ve gelisime her zaman aciktir.
+
+
+Waterfall'u mu yoksa Agile i mi tercih edersiniz?
+Benim icin fark etmez ama ben daha cok Agile ortaminda calistim o yuzden cok yenilik ve updateler oldugu icin bir cok ortamda rahat bir sekilde calisabilirim.
+
+
+Requirement (Gereksinimler)
+Trending
+Best Sellers
+New Releases
+Movers & Shakers
+Digital Content & Devices
+Prime Video
+Amazon Music
+Echo & Alexa
+Fire Tablets
+Fire TV
+Kindle E-readers & Books
+Audible Books & Originals
+Appstore for Android
+    
+
+
+Epic => buyuk requiremnetlara denir.
+
+    User story => genel manada requirementlari daha kucuk bir parca olarak tanimlar.
+    Acceptance Criteria => en kucuk requiremlari tanimlayan birimlerdir
+    Registration => Epic
+    
+    Kullanici SSN ve isim girebilmelidir => User story
+    Acceptance Criteria =. en detayli gereksinim tanimlamasidir
+    
+    System bana gecersiz veriler ile giris izni vermemelidir.
+    AC1 => yanlis kullanici adi ile systeme giris yapilamamalidir
+    AC2 => yanlis sifre ile systeme giris yapamamaliyim
+    AC3 => yanlis sifre ve kullanici adi ile giris yapilmamalidir.
+    
+    kullanici => ibrahim
+    miharbi
+    sifre =12345
+        
+        Avrupa => epic
+        Almanya, Turkiye, Fransa => user story
+        Berlin, FK => Acceptance Criteria
+
+requirement = functionality  
+
+Sprint => 2 hafta ile 4 hafta arasi zaman dilimleri
+1 sprint minimum 2 hafta maximum 4 hafta olur.
+
+
+
+
+
+
+
+
+Scrum team => 
+
+
+Grooming session => user storyler teker teker ele alinir ve detayli bir sekilde takima anlatilir.
+
+Sprint planning => user storyler puanlanir ve takim icin de sorumluluklar paylasilir.
+
+1 puan => 8 saat dilimi => 1 gun
+
+sprint 2 hafta
+10 puan eder
+4 kisi var 
+40 puan eder
+team capacity (takim kapasitesi) => 40
+
+1 puan => 1 gun
+1 kisi iki haftalik bir sprintte kac puanlik calisir?
+10 puan 
+40 puan 
+takim kapasitesi 40
+
+
+
+FN:
+0 + 1 + 1 + 2 + 3 + 5 + 8 + 13
+
+
+
+gunluk toplantilar vardir
+
+
+
+
+Daily srum / stand-up => Dun ne yaptim ve bugun ne uzerine calisiyorum ve her hangi bir 
+impediment(bloke eden sorunlar) varsa bunlardan bahsedilir.
+
+
+Demo / sprint review toplantisi => bir sprint boyunca yapilan calismalar business yetkililerine gosterilir.
+
+Sprint retrospective toplantisi => burda da genel olarak sprint degerlendirilmesi yapilir ve neler iyi gecti, 
+neler daha iyi yapilabilirdi, bir sonrakine neleri degistirmeyi planliyoruz ve her hangi bir 
+impediment(buyuk engeller) varmiydi?
+
+
+
+requirementlar
+
+Product Backlog  => tum user storylerin bulundugu liste
+
+Sprint Backlog => o sprintte uzerinde calisilacak user storyler listesi
+
+
+
+
+
+
+Agile => Scrum team
+
+
+Product Owner => business yetkilisi ve stakeholder da olabilirler.
+
+Scrum master => organize olmalara yardimci olur ve takim icin bir kolaylastiricidir.(facilitator)
+toplantilari organize eder.
+toplantilarda komunikasyonu saglar.
+
+
+Developer => kod yazarlar
+
+
+Testerlar => kalite kontrolu saglarlar.
+
+BA => Business ile teknik dunya arsinda kopru vazifesi gorur.

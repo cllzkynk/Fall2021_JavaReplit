@@ -1,0 +1,174 @@
+Full Stack Automation tester 
+		  Full Stack Developer
+		  
+		  
+
+UI => User Interface => Uygulamalarin gorsel kismi
+
+Backend => Api => Application programming interface
+		   Database => Veri bankasi
+
+
+Selenium Web Driver => UI testing
+API => RestAssured Library => Backend testing
+Database testing => JDBC => Backend testing
+
+
+UI development
+Backend Development
+
+
+
+Primite types 
+
+Non Primitive
+
+
+
+Software Development Life Cycle
+Yazilim gelistirme Yasam dongusu
+
+
+
+Mesajlasma uygulamasi
+			Plan
+			fizibilite calismasi
+			Dokumantasyon
+			Design => Designer / UX
+			Yazilim asamasi baslar / Development => Developer
+			testing / test etmek => Tester
+			piayasaya cikis / deployment / release => DevOps Engineer
+			servis / bakim / maintenance
+
+
+end user => kullanicilar / musteriler / customer
+feedback => musterilerden geri donusler
+
+
+
+
+			Satin alinacaklar
+
+
+
+			Planning
+			Defining
+			Designing
+			Building / Development
+			Testing
+			Deployment / Maintenance
+
+
+
+			Customer / End-User => musteri
+			release / Deployment => Piyasaya cikarma
+			Requirement => gereksinimler
+			Stakeholder => Proje sahibi
+
+
+
+
+PM => Projeyi yonetir
+	  Risk yonetir
+	  butceyi yonetir
+	  Stakeholderlar ile ilitisimi yonetir
+	  krizleri(conflicts) onler
+	  gorev dagilimini yonetir
+
+
+
+
+Business Analyst => Teknoloji ve Is dunyasini bir araya getirir.
+
+
+
+BRD => Business requirement document
+BA BRD hazirlar
+
+FRD => Functionla Requirement Document
+
+BA FRD hazirlar.
+
+Is dunyasi ile Teknik dunya arasinda kopru vazifesi gormesi
+
+
+
+
+
+
+
+Developer kaliteli kodlar yazarak uygulamalari olustururlar.
+Dokumantasyonlarini guncellerler.
+
+
+
+
+				Business plan kim yapar ? Planning
+				PM
+				
+				Kim dokumantasyona doker?Defining
+				BA
+				
+				Kim requirementlari design a doker? Designing
+				Solution Architects/ Designer				
+				DDS => Design Document Specification
+				
+				
+				Kim yazilimi gelistirir bu docs referans  alarak? Building
+				Devs
+				
+				Yazilimi kim test eder? Testing
+				QA => Kalite kontrol
+				
+				Kim bu uygulamayi piyasaya surer? Deployment
+				DevOPs
+				
+				Kim geri donus olarak feedback verir?Maintenance 
+				End User / Customer
+
+
+
+      Dolar kullanilacak 
+
+
+      Yuz de yuz her seyi test coverage yapabilir misiniz?
+
+
+      Recruiter
+
+
+      Defect => uygulamada bulunan hatalardir.
+
+
+
+
+
+      	SDLC     =>     Software Development Life Cycle => Yazılım geliştirme yaşam dongüsü 
+ 		PM       =>     Project Manager => Projeyi yöneten kimse
+		BA       =>     Business Analyst => Business sorunları ve teknoloji çözümleri arasında bir köprü vazivesi görür
+		Dev      =>     Developer  => Yazılım yapan kimse
+		QA       =>     Quality Analyst  => Kalite kontrolü sağlayan kimse (biz)
+ 		BRD      =>     Business Requirement Document => Business ın tum beklentilerini karşılayan doküman 
+ 		FRD      =>     Functional Requirement Document => Doğrudan yazılımda kullanılacak doküman  
+
+
+ 		Planning
+ 		Defining
+ 		Designing
+ 		Building
+ 		Testing
+ 		Deployment
+ 		Maintenance
+
+
+ 		PM / BA / Dev / QA
+
+
+ 		Gereksinimler / vazifeler => Requirement
+
+ 		BRD => Business Requirement Document
+ 		FRD => Functional Requirement Document
+
+ Use Case => BRD ve FRD
+ 		End-user / Customer
+ 		deployment / release
